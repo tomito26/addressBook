@@ -86,17 +86,21 @@ function addContact(e){
     p2.appendChild(span5);
     p2.appendChild(span6);
     cardbody.appendChild(p2);
-    console.log(cardbody)
-
-
-    
-    
+    // console.log(cardbody)
 
     
-    div.appendChild(cardbody)
+    div.appendChild(cardbody);
     addressItems.appendChild(div);
+    //alert message after adding a contact
+    // let output = document.getElementById("output")
+    // let alertMessage = document.createElement("p");
+    // alertMessage.className = "alert alert-success";
+    // alertMessage.appendChild(document.createTextNode("The address has been recorded"));
+    // output.appendChild(alertMessage);
+    // console.log(output)
+
     
-    console.log(addressItems)
+    // console.log(addressItems)
 
     
 }
